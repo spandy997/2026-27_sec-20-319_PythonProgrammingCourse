@@ -1,7 +1,9 @@
-dict_data = {
-    "S1": {"name": ____, "marks": ____},  # e.g. "Ram", 85
-    "S2": {"name": ____, "marks": ____},  # e.g. "Sita", 90
+students = {
+    1: {"name": "Rahul", "marks": 85},
+    2: {"name": "Priya", "marks": 90},
+    3: {"name": "Arjun", "marks": 78}
 }
-print("All:", ____)
-print("S1 name:", dict_data[____][____])
-print("S2 marks:", dict_data[____][____])
+
+for student in students.values():
+    print("Name:", student["name"])
+    print("Marks:", student["marks"])
